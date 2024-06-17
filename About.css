@@ -1,0 +1,135 @@
+* {
+    margin:0%
+}
+
+
+body {
+    font-family: 'poppin',"roboto";
+    background-color:#B2a198;
+    margin: 0;
+    padding: 0px;
+    color: Black;
+}
+
+.header{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    border-radius: 10x; 
+    text-align: center;
+}
+
+h2{
+    color:blueviolet;
+    text-align:center;
+}
+
+h3{
+    color:blueviolet;
+    text-align:center;
+}
+
+
+/* .Jemo{
+    width: 200;
+    height: 150px;
+}
+
+.Syd{
+    width: 170px;
+    height: 150px;
+}
+
+.peter{
+    width: 400px;
+    height: 200px;
+} */
+
+.users{
+text-align:center;
+display: flex;
+}
+
+.user-section{
+    display: inline-block;
+    height:200px;
+    width:200px;
+    margin: 5px;
+}
+
+.info{
+    display: flex;
+
+}
+
+.infod{
+    display: inline-block;
+    width: 40%;
+    border: 1px solid grey; 
+    margin:20px;
+    padding: 20px;
+    border-radius:5%;
+}
+
+nav{
+    padding: 0 0;
+    margin: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 11vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    width: 10;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+footer{
+    padding: 0 0;
+    margin: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+}
+  
+  .social-icons a {
+    color: #333;
+    margin-right: 10px; 
+  }
+  .social-icons {
+    font-size: 24px; 
+  }
+  
+  .social-icons a {
+    color: #333; 
+    margin-right: 10px;
+  }
+
+  .finance{
+    width: 30%;
+    margin: 1px solid grey;
+  }
+
+  .procurement{
+    width: 30%;
+    margin: 1px solid grey; 
+  }
+
+  .engineering{
+    width: 30%;
+    margin: 1px solid grey;
+  }
