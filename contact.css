@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body
+{ background-color: #b2a198;
+font-family: poppin,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 12;
+}
+
+h2{
+    color: blueviolet;
+}
+nav{
+    padding: 0 0;
+    margin: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7.5vh;
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+    height: 82.5vh;
+}
+
+.logo{
+    width: 10;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+
+
+#form{
+    width: 50%;
+    float: Right;
+    line-height: 140%;
+    margin-top: 2%;
+}
+
+input{
+    line-height: 25px;
+    width: 50%;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    border: 1px saddlebrown;
+    border-radius: 5px;
+
+}
+
+label{
+    width: 50%;
+    display: inline-block;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+textarea{
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 5%;
+    border: 1px saddlebrown;
+    border-radius: 10px;
+}
+#contact-info{
+    width: 50%;
+    line-height: 81px;
+    margin-left: 3%;
+    padding-left: 3%;
+    margin-top: 3%;
+    
+}
+
+button{
+    border-radius: 70px;
+    margin-top: 1%;
+    background-color: #509946;
+}
+
+footer{
+    padding: 0 0;
+    margin: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
